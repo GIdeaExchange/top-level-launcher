@@ -12,9 +12,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Main.vi" Type="VI" URL="../Test/Main.vi"/>
-		<Item Name="Run Top Level.vi" Type="VI" URL="../Source/Run Top Level.vi"/>
-		<Item Name="Set Top Level.vi" Type="VI" URL="../Source/Set Top Level.vi"/>
+		<Item Name="Fetch tag.vi" Type="VI" URL="../Fetch tag.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Run Top Level.vi" Type="VI" URL="../Run Top Level.vi"/>
+		<Item Name="Set Top Level.vi" Type="VI" URL="../Set Top Level.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
