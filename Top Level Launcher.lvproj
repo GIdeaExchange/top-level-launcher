@@ -16,11 +16,16 @@
 		<Item Name="Test" Type="Folder">
 			<Item Name="Main.vi" Type="VI" URL="../Test/Main.vi"/>
 		</Item>
+		<Item Name="Delete Top Level.vi" Type="VI" URL="../Source/Delete Top Level.vi"/>
+		<Item Name="Read TopVI Tag.vi" Type="VI" URL="../Source/Read TopVI Tag.vi"/>
 		<Item Name="Run Top Level.vi" Type="VI" URL="../Source/Run Top Level.vi"/>
 		<Item Name="Set Top Level.vi" Type="VI" URL="../Source/Set Top Level.vi"/>
+		<Item Name="Top Level Launcher.vi" Type="VI" URL="../Source/Top Level Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
+				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
