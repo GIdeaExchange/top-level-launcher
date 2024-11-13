@@ -18,9 +18,6 @@
 			<Item Name="Run Top Level.vi" Type="VI" URL="../Source/Run Top Level.vi"/>
 			<Item Name="Set Top Level.vi" Type="VI" URL="../Source/Set Top Level.vi"/>
 		</Item>
-		<Item Name="Test" Type="Folder">
-			<Item Name="Main.vi" Type="VI" URL="../Test/Main.vi"/>
-		</Item>
 		<Item Name="Top Level Launcher.vi" Type="VI" URL="../Source/Top Level Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -45,19 +42,19 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Top Level Launcher.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TopLevelLauncher.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3D6862-DA7D-4538-A8AC-D1286891FA29}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Top Level Launcher.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TopLevelLauncher.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2CF325DD-1976-4992-83F5-6D8424DFE31F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{884C3D83-1A43-45E4-8255-99A750491141}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Top Level Launcher.vi</Property>
