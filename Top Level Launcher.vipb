@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-24 19:09:04" Modified_Date="2024-11-08 10:33:22" Creator="Test" Comments="" ID="061d54c6501c9eb39a0973161dd06061">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-24 19:09:04" Modified_Date="2024-11-16 11:23:50" Creator="Test" Comments="" ID="4bd7d13d3a247eb2bb55c42851fe93b4">
   <Library_General_Settings>
     <Package_File_Name>GCentral_lib_Top_Level_Launcher</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -31,7 +31,7 @@
       <Description>Sets or run the top level VI in the project.
 
 Normal Operation:
-To set the top VI, use Shift+Ctrl+[shortcut].
+To set the top VI, use Ctrl+Shift+[shortcut].
 To run the top VI, use Ctrl+[shortcut].
 
 Advanced Operation using QD data entry:
@@ -44,7 +44,7 @@ Default Shortcut - [E]</Description>
       <Copyright/>
       <Packager>GCentral</Packager>
       <URL>https://github.com/gcentral/top-level-launcher</URL>
-      <Release_Notes>Initial Release.</Release_Notes>
+      <Release_Notes>- Top-level VI no longer needs to be open prior to executing the QD shortcut (once set).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
