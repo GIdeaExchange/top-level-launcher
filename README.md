@@ -2,7 +2,7 @@
 Sets or run the top level VI in the project.
 
 # Normal Operation
-To set the top VI, use Shift+Ctrl+[shortcut].
+To set the top VI, use Ctrl+Shift+[shortcut].
 
 To run the top VI, use Ctrl+[shortcut].
 
