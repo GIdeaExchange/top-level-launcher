@@ -13,6 +13,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Testers" Type="Folder">
+			<Item Name="Test Get Project.vi" Type="VI" URL="../Test Get Project.vi"/>
+		</Item>
 		<Item Name="Boolean Enum.ctl" Type="VI" URL="../Boolean Enum.ctl"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
@@ -22,6 +25,9 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
+			<Item Name="Find VI in Project.vi" Type="VI" URL="../../Source/Find VI in Project.vi"/>
+			<Item Name="Get Non-Qualified Name.vi" Type="VI" URL="../../Source/Get Non-Qualified Name.vi"/>
+			<Item Name="Get Owning Project.vi" Type="VI" URL="../../Source/Get Owning Project.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

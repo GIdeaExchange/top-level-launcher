@@ -14,6 +14,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Delete Top Level.vi" Type="VI" URL="../Source/Delete Top Level.vi"/>
+			<Item Name="Find VI in Project.vi" Type="VI" URL="../Source/Find VI in Project.vi"/>
+			<Item Name="Get Non-Qualified Name.vi" Type="VI" URL="../Source/Get Non-Qualified Name.vi"/>
+			<Item Name="Get Owning Project.vi" Type="VI" URL="../Source/Get Owning Project.vi"/>
 			<Item Name="Read TopVI Tag.vi" Type="VI" URL="../Source/Read TopVI Tag.vi"/>
 			<Item Name="Run Top Level.vi" Type="VI" URL="../Source/Run Top Level.vi"/>
 			<Item Name="Set Top Level.vi" Type="VI" URL="../Source/Set Top Level.vi"/>
@@ -23,6 +26,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -47,7 +51,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3D6862-DA7D-4538-A8AC-D1286891FA29}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TopLevelLauncher.llb</Property>
