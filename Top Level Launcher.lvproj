@@ -12,11 +12,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="subVIs" Type="Folder">
-			<Item Name="Delete Top Level.vi" Type="VI" URL="../Source/Delete Top Level.vi"/>
+		<Item Name="Get Project" Type="Folder">
 			<Item Name="Find VI in Project.vi" Type="VI" URL="../Source/Find VI in Project.vi"/>
 			<Item Name="Get Non-Qualified Name.vi" Type="VI" URL="../Source/Get Non-Qualified Name.vi"/>
 			<Item Name="Get Owning Project.vi" Type="VI" URL="../Source/Get Owning Project.vi"/>
+		</Item>
+		<Item Name="subVIs" Type="Folder">
+			<Item Name="Delete Top Level.vi" Type="VI" URL="../Source/Delete Top Level.vi"/>
 			<Item Name="Read TopVI Tag.vi" Type="VI" URL="../Source/Read TopVI Tag.vi"/>
 			<Item Name="Run Top Level.vi" Type="VI" URL="../Source/Run Top Level.vi"/>
 			<Item Name="Set Top Level.vi" Type="VI" URL="../Source/Set Top Level.vi"/>
