@@ -28,9 +28,3 @@ To read what the top VI is, enter "read" before activating the shortcut.
 + Matt Jacobson
 + Tim Robinson
 -------------------
-
-### v1.0.0
-- Initial release
-
-### v1.0.1
-- Top-level VI no longer needs to be open prior to executing the QD shortcut (once set).
