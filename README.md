@@ -1,23 +1,21 @@
 # top-level-launcher
-Sets or run the top level VI in the project.
 
-## Normal Operation
-To set the top VI, use Ctrl+Shift+[shortcut].
+Manages the top level VI in the project.
 
-To run the top VI, use Ctrl+[shortcut].
+## Normal Operation:
+
+* To set the top VI, enter "**s**" or "**set**" before activating the shortcut.
+* To open the top VI, use Shift+Ctrl+[shortcut].
+* To run the top VI, use Ctrl+[shortcut].
+
+## Advanced Operation using QD data entry:
+
+* To run the top VI, enter "r" or "run" before activating the shortcut.
+* To remove the top VI setting, enter "d", "del", "delete", "rem", or "remove" before activating the shortcut.
+* To read what the top VI is, enter "get" or "read" before activating the shortcut.
+* To open the top VI without running it, enter "o" or "open" before activating the shortcut.
 
 Default Shortcut - [E]
-
-## Advanced Operation using QD data entry
-To set the top VI, enter "s" or "set" before activating the shortcut.
-
-To run the top VI, enter "r" or "run" before activating the shortcut.
-
-To remove the top VI setting, enter "d", "del", "delete", or "remove" before activating the shortcut.
-
-To read what the top VI is, enter "read" before activating the shortcut.
-
-To open the top VI without running it, enter "o" or "open" before activating the shortcut.
 
 -------------------
 ## Contributors:
