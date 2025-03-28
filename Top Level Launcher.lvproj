@@ -34,7 +34,6 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="llb" Type="Source Distribution">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EFECCD1F-1238-454B-8417-F3C756E1659A}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">llb</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
@@ -52,7 +51,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3D6862-DA7D-4538-A8AC-D1286891FA29}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TopLevelLauncher.llb</Property>
@@ -60,7 +59,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{884C3D83-1A43-45E4-8255-99A750491141}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{95809640-A2D1-4B27-85E6-D2EFE263E227}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Top Level Launcher.vi</Property>
