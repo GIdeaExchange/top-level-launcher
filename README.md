@@ -17,6 +17,8 @@ To remove the top VI setting, enter "d", "del", "delete", or "remove" before act
 
 To read what the top VI is, enter "read" before activating the shortcut.
 
+To open the top VI without running it, enter "o" or "open" before activating the shortcut.
+
 -------------------
 ## Contributors:
 + Anders Sekanina

@@ -19,7 +19,6 @@
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Delete Top Level.vi" Type="VI" URL="../Source/Delete Top Level.vi"/>
-			<Item Name="Open Top Level.vi" Type="VI" URL="../Source/Open Top Level.vi"/>
 			<Item Name="Read TopVI Tag.vi" Type="VI" URL="../Source/Read TopVI Tag.vi"/>
 			<Item Name="Run Top Level.vi" Type="VI" URL="../Source/Run Top Level.vi"/>
 			<Item Name="Set Top Level.vi" Type="VI" URL="../Source/Set Top Level.vi"/>
