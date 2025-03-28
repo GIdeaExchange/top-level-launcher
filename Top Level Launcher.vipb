@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-24 19:09:04" Modified_Date="2025-01-19 11:11:11" Creator="Test" Comments="" ID="f7a3da5fdac50b9d84f5ffef2e4724c3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-24 19:09:04" Modified_Date="2025-03-28 11:25:00" Creator="Test" Comments="" ID="b9cf9c322c6aeb4e2daf25ee465ce585">
   <Library_General_Settings>
     <Package_File_Name>GCentral_lib_Top_Level_Launcher</Package_File_Name>
-    <Library_Version>1.0.2.4</Library_Version>
+    <Library_Version>1.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -28,26 +28,25 @@
     <VI_Package_Configuration_File>Top Level Launcher.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>QuickDrop tool for setting and running a project top level VI.</One_Line_Description_Summary>
-      <Description>Sets or run the top level VI in the project.
+      <Description>Manages the top level VI in the project.
 
 Normal Operation:
-To set the top VI, use Ctrl+Shift+[shortcut].
+To set the top VI, enter "&lt;b&gt;s&lt;/b&gt;" or "&lt;b&gt;set&lt;/b&gt;" before activating the shortcut.
+To open the top VI, use Shift+Ctrl+[shortcut].
 To run the top VI, use Ctrl+[shortcut].
 
 Advanced Operation using QD data entry:
-To set the top VI, enter "s" or "set" before activating the shortcut.
-To read what the top VI is, enter "get" before activating the shortcut.
 To run the top VI, enter "r" or "run" before activating the shortcut.
-To remove the top VI setting, enter "d", "del", "delete", "rem" or "remove" before activating the shortcut.
-
+To remove the top VI setting, enter "d", "del", "delete", "rem", or "remove" before activating the shortcut.
+To read what the top VI is, enter "get" or "read" before activating the shortcut.
+To open the top VI without running it, enter "o" or "open" before activating the shortcut.
 
 Default Shortcut - [E]</Description>
       <Copyright/>
       <Packager>GCentral</Packager>
       <URL>https://github.com/gcentral/top-level-launcher</URL>
-      <Release_Notes>- Top-level VI selection is now limited ONLY to VIs and VITs.
-- Application instance is set to the owning project of the top-level VI instead of the active project.
-- Added "get" to the acceptable inputs to read the top-level VI's path.</Release_Notes>
+      <Release_Notes>- Ability to just open the Top VI
+- Changed Shift modifier to open</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
