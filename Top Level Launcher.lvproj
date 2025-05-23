@@ -21,6 +21,7 @@
 			<Item Name="Get Owning Project.vi" Type="VI" URL="../Source/Get Owning Project.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="Allowed Commands.vi" Type="VI" URL="../Source/Allowed Commands.vi"/>
 			<Item Name="Delete Top Level.vi" Type="VI" URL="../Source/Delete Top Level.vi"/>
 			<Item Name="Parse QD Text.vi" Type="VI" URL="../Source/Parse QD Text.vi"/>
 			<Item Name="Read TopVI Tag.vi" Type="VI" URL="../Source/Read TopVI Tag.vi"/>
@@ -31,7 +32,11 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
