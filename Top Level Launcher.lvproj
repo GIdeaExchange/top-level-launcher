@@ -21,15 +21,15 @@
 			<Item Name="Get Owning Project.vi" Type="VI" URL="../Source/Get Owning Project.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="Alias Format Specifier.vi" Type="VI" URL="../Source/Alias Format Specifier.vi"/>
 			<Item Name="Allowed Commands.vi" Type="VI" URL="../Source/Allowed Commands.vi"/>
+			<Item Name="Build XML tag.vi" Type="VI" URL="../Source/Build XML tag.vi"/>
 			<Item Name="Delete Top Level.vi" Type="VI" URL="../Source/Delete Top Level.vi"/>
 			<Item Name="Parse QD Text.vi" Type="VI" URL="../Source/Parse QD Text.vi"/>
 			<Item Name="Read TopVI Tag.vi" Type="VI" URL="../Source/Read TopVI Tag.vi"/>
 			<Item Name="Run Top Level.vi" Type="VI" URL="../Source/Run Top Level.vi"/>
 			<Item Name="Set Top Level.vi" Type="VI" URL="../Source/Set Top Level.vi"/>
 		</Item>
-		<Item Name="Alias Format Specifier.vi" Type="VI" URL="../Source/Alias Format Specifier.vi"/>
-		<Item Name="Build XML tag.vi" Type="VI" URL="../Source/Build XML tag.vi"/>
 		<Item Name="Top Level Launcher.vi" Type="VI" URL="../Source/Top Level Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
