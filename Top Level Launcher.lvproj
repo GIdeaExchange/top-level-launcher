@@ -29,6 +29,7 @@
 			<Item Name="Set Top Level.vi" Type="VI" URL="../Source/Set Top Level.vi"/>
 		</Item>
 		<Item Name="Alias Format Specifier.vi" Type="VI" URL="../Source/Alias Format Specifier.vi"/>
+		<Item Name="Build XML tag.vi" Type="VI" URL="../Source/Build XML tag.vi"/>
 		<Item Name="Top Level Launcher.vi" Type="VI" URL="../Source/Top Level Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
