@@ -1,5 +1,10 @@
 # Release Notes
 
+### v2.0.0
+- Ability to just open the Top VI
+- Changed Shift modifier to open
+- Support for multiple "top-level" VIs via aliases. See documentation for more details.
+
 ### v1.0.2
 - Top-level VI selection is now limited ONLY to VIs and VITs.
 - Application instance is set to the owning project of the top-level VI instead of the active project.
