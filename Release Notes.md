@@ -1,8 +1,8 @@
 # Release Notes
 
 ### v2.0.0
-- Ability to just open the Top VI
-- Changed Shift modifier to open
+- Ability to just open the Top VI.
+- Changed Shift modifier to open rather than set.
 - Support for multiple "top-level" VIs via aliases. See documentation for more details.
 
 ### v1.0.2
