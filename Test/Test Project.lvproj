@@ -16,6 +16,8 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Get Project.vi" Type="VI" URL="../Test Get Project.vi"/>
 		</Item>
+		<Item Name="1.vi" Type="VI" URL="../1.vi"/>
+		<Item Name="2.vi" Type="VI" URL="../2.vi"/>
 		<Item Name="Boolean Enum.ctl" Type="VI" URL="../Boolean Enum.ctl"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>

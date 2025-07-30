@@ -12,22 +12,34 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Command Enum.ctl" Type="VI" URL="../Source/Command Enum.ctl"/>
+		</Item>
 		<Item Name="Get Project" Type="Folder">
 			<Item Name="Find VI in Project.vi" Type="VI" URL="../Source/Find VI in Project.vi"/>
 			<Item Name="Get Non-Qualified Name.vi" Type="VI" URL="../Source/Get Non-Qualified Name.vi"/>
 			<Item Name="Get Owning Project.vi" Type="VI" URL="../Source/Get Owning Project.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="Alias Format Specifier.vi" Type="VI" URL="../Source/Alias Format Specifier.vi"/>
+			<Item Name="Allowed Commands.vi" Type="VI" URL="../Source/Allowed Commands.vi"/>
+			<Item Name="Build XML tag.vi" Type="VI" URL="../Source/Build XML tag.vi"/>
 			<Item Name="Delete Top Level.vi" Type="VI" URL="../Source/Delete Top Level.vi"/>
+			<Item Name="Parse QD Text.vi" Type="VI" URL="../Source/Parse QD Text.vi"/>
 			<Item Name="Read TopVI Tag.vi" Type="VI" URL="../Source/Read TopVI Tag.vi"/>
 			<Item Name="Run Top Level.vi" Type="VI" URL="../Source/Run Top Level.vi"/>
 			<Item Name="Set Top Level.vi" Type="VI" URL="../Source/Set Top Level.vi"/>
+			<Item Name="Validate Alias.vi" Type="VI" URL="../Source/Validate Alias.vi"/>
 		</Item>
 		<Item Name="Top Level Launcher.vi" Type="VI" URL="../Source/Top Level Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
